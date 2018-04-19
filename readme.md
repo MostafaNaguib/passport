@@ -18,3 +18,7 @@ Documentation for Passport can be found on the [Laravel website](http://laravel.
 ## License
 
 Laravel Passport is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Update for Multi-auth guard
+While creating Token u should use 
+`$Model->createToken($guard)->accessToken`
